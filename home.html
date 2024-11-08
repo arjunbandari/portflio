@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arjun's Portfolio</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header class="navbar">
+        <div class="left-side">
+            <h2>Arjun's Portfolio</h2>
+        </div>
+        <nav class="right-side">
+            <ul>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="center-content">
+        <img src="images/arjun.jpg" alt="Bandari Arjun" class="profile-photo">
+        <h1>BANDARI ARJUN</h1>
+        <p class="subtitle">Software Developer</p>
+        <div class="social-icons">
+            <a href="https://www.linkedin.com/in/arjun-bandari-a01a91316" target="_blank">
+                <img src="images/linkedin.webp" alt="LinkedIn" class="icon">
+            </a>
+            <a href="https://github.com/arjunbandari" target="_blank">
+                <img src="images/git.png" alt="GitHub" class="icon">
+            </a>
+        </div>
+        <div class="download-cv">
+            <a href="path/to/your/cv.pdf" download="Bandari_Arjun_CV.pdf" class="download-button">Download CV</a>
+        </div>
+    </main>
+
+    <!-- Content Sections for Scrolling -->
+    <section id="about" class="content-section">
+        <h2>About Me</h2>
+        <p>Hi, I'm Bandari Arjun, a passionate and driven Software Developer with a deep interest in creating innovative and efficient software solutions. My expertise spans web development, machine learning, and programming languages such as Java, Python, and JavaScript. I have a strong foundation in computer science and engineering, which empowers me to tackle complex challenges. In addition to technical skills, I am a quick learner, dedicated team player, and always eager to expand my knowledge. My goal is to contribute meaningfully to impactful projects that shape the future of technology.</p>
+
+        <div class="education-container">
+            <div class="education-box">
+                <h3>Bachelor's Degree</h3>
+                <p><strong>Institute:</strong>Geethanjali College of Engineering and Technology</p>
+                <p><strong>CGPA:</strong>7.5</p>
+            </div>
+            <div class="education-box">
+                <h3>Intermediate</h3>
+                <p><strong>Institute:</strong>Narayana Junior College</p>
+                <p><strong>Percentage:</strong>95%</p>
+            </div>
+            <div class="education-box">
+                <h3>Schooling</h3>
+                <p><strong>Institute:</strong>St. Dominic Savio Model High School</p>
+                <p><strong>GPA:</strong>9.8</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="content-section">
+        <h2>Experience</h2>
+        <div class="experience-box">
+            <h3>Internship at Supraja Technologies</h3>
+            <p><strong>Company:</strong> Supraja Technologies</p>
+            <p><strong>Location:</strong> Hyderabad</p>
+            <p><strong>Duration:</strong> 05/2023 - 06/2023</p>
+            <ul>
+                <li>Supported staff members in their daily tasks, reducing workload burden and allowing for increased focus on higher-priority assignments.</li>
+                <li>Gained valuable experience working within a specific industry, applying learned concepts directly into relevant work situations.</li>
+                <li>Analyzed problems and worked with teams to develop solutions.</li>
+                <li>Contributed to a positive team environment by collaborating with fellow interns on group projects and presentations.</li>
+                <li>Utilized strong communication abilities during presentations, leading to increased understanding among colleagues regarding project goals and objectives.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="content-section">
+        <h2>Skills & Tools</h2>
+    
+        <!-- Tab buttons for switching between Skills and Tools -->
+        <div class="tab">
+            <button class="tablinks active" onclick="openTab(event, 'Skills')">Skills</button>
+            <button class="tablinks" onclick="openTab(event, 'Tools')">Tools</button>
+        </div>
+    
+        <!-- Skills content -->
+        <div id="Skills" class="tabcontent">
+            <h3>Skills</h3>
+            <div class="skills-icons-container">
+                <!-- Skills Icons -->
+                <div class="skills-box">
+                    <img src="images/java.png" alt="Java" class="skills-icon">
+                    <img src="images/python.png" alt="Python" class="skills-icon">
+                    <img src="images/javascript.png" alt="JavaScript" class="skills-icon">
+                    <img src="images/c.webp" alt="C" class="skills-icon">
+                    <img src="images/html.png" alt="HTML" class="skills-icon">
+                    <img src="images/css.jpeg" alt="css" class="skills-icon">
+                    <img src="images/bootstrap.jpeg" alt="Bootstrap" class="skills-icon">
+                    <img src="images/aws.webp" alt="AWS" class="skills-icon">
+                    <img src="images/git.webp" alt="Git" class="skills-icon">
+                    <img src="images/tensorflow.png" alt="TensorFlow" class="skills-icon">
+                    <img src="images/rstudio.png" alt="RStudio" class="skills-icon">
+                    <img src="images/sql.webp" alt="sql" class="skills-icon">
+                </div>
+            </div>
+        </div>
+    
+        <!-- Tools content -->
+        <div id="Tools" class="tabcontent">
+            <h3>Tools</h3>
+            <div class="tools-icons-container">
+                <!-- Tools Icons -->
+                <div class="tools-box">
+                    <img src="images/commandprompt.png" alt="Command Prompt" class="tools-icon">
+                    <img src="images/git1.webp" alt="Git" class="tools-icon">
+                    <img src="images/vscode.png" alt="VSCode" class="tools-icon">
+                    <img src="images/intellij.png" alt="IntelliJ" class="skills-icon">
+                    <img src="images/eclipse.png" alt="eclipse" class="skills-icon">
+                    <img src="images/microsoftoffice.png" alt="Microsoft Office" class="tools-icon">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+        <!-- Tools content -->
+        <div id="Tools" class="tabcontent">
+            <h3>Tools</h3>
+            <div class="tools-icons-container">
+                <!-- Tools Icons -->
+                <div class="tools-box">
+                    <img src="C:\Users\banda\Music\portfolio\images\commandprompt.png" alt="Command Prompt" class="tools-icon">
+                    <img src="C:\Users\banda\Music\portfolio\images\git1.webp" alt="Git" class="tools-icon">
+                    <img src="C:\Users\banda\Music\portfolio\images\vscode.png" alt="VSCode" class="tools-icon">
+                    <img src="C:\Users\banda\Music\portfolio\images\microsoftoffice.png" alt="Microsoft Office" class="tools-icon">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- Projects Section -->
+    <section id="projects" class="content-section">
+        <h2>Projects</h2>
+
+        <div class="project-box">
+            <h3>Lip Reading</h3>
+            <p><strong>Duration:</strong> 05/2024 - 07/2024</p>
+            <p><strong>Type:</strong> Mini Project</p>
+            <p><strong>Description:</strong></p>
+            <p>Lipreading is a technique used to interpret speech by analyzing lip movements without audio. This system extracts speech from a video of a silent talking face and converts it into text. It involves deep learning models, particularly Convolutional Neural Networks (CNNs), to detect lip movements and map them to the corresponding phonetic output.</p>
+            <p><strong>Technologies Used:</strong> Python, TensorFlow, Keras, OpenCV, Deep Learning, CNNs.</p>
+        </div>
+
+        <div class="project-box">
+            <h3>Password Vault</h3>
+            <p><strong>Duration:</strong> 05/2023 - 06/2023</p>
+            <p><strong>Company:</strong> Supraja Technologies</p>
+            <p><strong>Description:</strong></p>
+            <p>This project is designed to provide a secure, centralized password management solution using advanced encryption techniques. Users can store and manage their passwords securely, and the application includes email notifications for added security. The project was developed as part of an internship at Supraja Technologies.</p>
+            <p><strong>Technologies Used:</strong> Python, Tkinter, Cryptography, Email APIs, SQLite, Encryption.</p>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section">
+        <h2>Contact</h2>
+        <div class="contact-info">
+            <div class="contact-item">
+                <i class="fa fa-envelope"></i>
+                <p><strong>Email:</strong> bandariarjun28@gmail.com</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-phone"></i>
+                <p><strong>Phone:</strong> +91 9618516706</p>
+            </div>
+            <div class="contact-item">
+                <i class="fa fa-linkedin"></i>
+                <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/arjun-bandari-a01a91316" target="_blank">arjun-bandari</a></p>
+            </div>
+        </div>
+    </section>   
+</body>
+</html>
